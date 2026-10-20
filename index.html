@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Art Spot</title>
+<style>
+  :root { --ink:#1a1a1a; --paper:#faf7f2; --accent:#c86b3c; --muted:#6b6259; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: var(--paper); color: var(--ink);
+    min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    padding: 2rem;
+  }
+  main { max-width: 620px; }
+  .mark {
+    font-size: 2.6rem; letter-spacing: 0.02em;
+    border-bottom: 3px solid var(--accent); display: inline-block; padding-bottom: .3rem;
+  }
+  p { margin: 1.2rem 0 0; line-height: 1.7; color: var(--muted); }
+  p strong { color: var(--ink); }
+  .links { margin-top: 2.2rem; font-size: .95rem; }
+  .links a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent); }
+  .links a:hover { opacity: .75; }
+  footer { margin-top: 3rem; font-size: .8rem; color: #9a9188; }
+</style>
+</head>
+<body>
+<main>
+  <h1 class="mark">Art Spot</h1>
+  <p><strong>Art Spot</strong> is the private, in-house toolkit used to run
+  <strong>ART SPOT</strong> and the <strong>Under100 Art Show</strong> series &mdash;
+  artist payouts, inventory tracking, show scheduling, and team communications.</p>
+  <p>This tool is not a public application. It operates only on accounts that have
+  explicitly authorized it, and handles their data solely for internal art-show
+  operations.</p>
+  <div class="links">
+    <a href="privacy.html">Privacy policy</a>
+  </div>
+  <footer>&copy; Art Spot. All rights reserved.</footer>
+</main>
+</body>
+</html>
